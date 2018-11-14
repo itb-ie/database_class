@@ -1,0 +1,4 @@
+# database_class
+This is the application we did in class. It is not yet complete, there is still the search functionality that needs to be done.  
+Idea: In the backend part create a method that takes as extra parameters a __title name__, a __director__, a __year__ and a __lead actor__. Do a databases query using these parameters (use OR between these 4 parameters to get all results that match at least one of them). Return the entire rows (same as in the case of __view_all()__ backend method).  
+Then you need to add the frontend implementation: read the 4 parameters from the __name_text__, __date_text__, __director_text__ and __lead_text__ members and pass them to the backend function you created above. Like in the case of the frontend method __view_command()__, add all the lines returned by the backend into the frontend listbox.
